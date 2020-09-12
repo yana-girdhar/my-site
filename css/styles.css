@@ -39,18 +39,19 @@ hr{
 
 .nav-item{
   display: inline-block;
-  margin: 30px 50px;
+  margin: 30px 40px;
 }
 
 .i-1{
-  margin-left: 900px;
+  margin-left: 45%;
 }
 
 .nav-img{
   display: inline-block;
   width: 6%;
   position: absolute;
-  top: 6px;
+  top: 1%;
+  left: 10%;
   background-color: #ebebeb;
   border-radius: 100%;
   margin-left: 200px;
@@ -58,7 +59,7 @@ hr{
 
 .nav-list{
   margin: 0;
-  padding: 16px 0 16px 40px;
+  padding: 16px 40px 16px 40px;
   border-style: solid;
   border-color: blue;
   border-width: 0 0 1px 0;
@@ -114,6 +115,7 @@ hr{
   float: right;
   position: relative;
   bottom: 7rem;
+  left: 1rem;
 }
 
 .cloud-2{
@@ -121,6 +123,10 @@ hr{
   width: 10rem;
   float: left;
 
+}
+
+.mountain{
+  width: 50%;
 }
 
 /********************************MIDDLE CONTAINER********************************/
@@ -137,7 +143,7 @@ hr{
 }
 
 .profile{
-  width: 40%;
+  width: 50%;
   line-height: 2;
 }
 
@@ -175,10 +181,6 @@ hr{
   bottom: 3rem;
 }
 
-.laptop{
-  text-align: right;
-}
-
 /********************************BOTTOM CONTAINER********************************/
 
 
@@ -204,4 +206,8 @@ hr{
 
 .btn:hover{
   background-image: linear-gradient(#160576, #00A8FF);
+}
+
+.copy{
+  font-size: 100%;
 }
