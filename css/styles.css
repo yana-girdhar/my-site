@@ -63,7 +63,14 @@ hr{
   border-style: solid;
   border-color: blue;
   border-width: 0 0 1px 0;
+}
 
+.nav-link{
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color: blue;
 }
 
 .btn-2{
@@ -210,4 +217,13 @@ hr{
 
 .copy{
   font-size: 100%;
+}
+
+.footer-link{
+  text-decoration: none;
+  padding: 20px;
+}
+
+.footer-link:hover{
+  color: blue;
 }
